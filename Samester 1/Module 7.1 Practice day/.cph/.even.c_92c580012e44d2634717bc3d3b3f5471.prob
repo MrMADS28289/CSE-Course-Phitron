@@ -1,0 +1,1 @@
+{"name":"Local: even","url":"c:\\Phitron\\Module 7.1 Practice day\\even.c","tests":[{"id":1713455817286,"input":"130","output":"22 24 26 28 30"},{"id":1713457540284,"input":"160","output":"28 30 32 34 36"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Phitron\\Module 7.1 Practice day\\even.c","group":"local","local":true}

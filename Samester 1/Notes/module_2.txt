@@ -1,0 +1,33 @@
+-----------------Module 2------------------
+
+
+* What i learn from this module?
+	1. Arithmetic Operators
+	2. Relational Operators
+	3. Logical Operators
+	4. How to control works with conditions
+	5. Conditional statement in C programm
+	6. if, else, if else
+
+1. Arithmetic Operator
+## what is operator? 
+ ans: a symbol in middle of two value, we will tell the works with that symbol.
+ ans2: we use some operator for doing methemetical work, that is called operator.
+ e.g. +, -, *, /, %.
+
+## value *1.0 for float value
+
+
+
+2. Relational Operators
+ * tell the value is true or false from middle of value.
+ symbols: <, <=, >, >=, ==, !=
+
+3. Logical Operators
+ * tell the truth form middle point of relations
+ symbols: ||, &&
+
+-- Conditional Statement
+ if(condition){}
+ if else(condition){}
+ else()

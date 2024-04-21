@@ -1,0 +1,96 @@
+                      ---------Module 1-----------
+
+
+* C is mother of programming language.
+* founder = Devvis Ritchie
+
+# what will learn from this module?
+  1. print
+  2. input
+  3. variable and data type
+  4. data type limitations
+  5. rules for variable naming
+
+* Basic structure of C programe
+  Head --> Header file
+  Body --> another code
+
+* what is header file?
+  built in func.
+*Library file / Header file.
+  #include <stdio.h>
+
+stdio.h = standard input and output.
+
+* what is func?
+# func is two type.
+  1. user defined func.
+  2. Built in func.
+
+* Startiing func is called main func.
+# structure of func.
+ 1. return type
+ 2. name
+ 3. ()
+ 4. {}
+ 5. proccess 
+ 6. return
+
+built in funcs
+* printf("----"); for print
+* #include <stdio.h>
+* init main(){} --> return 0; for finished.
+### ctrl + shift + n = new folder
+
+* Special characters (Escape)
+	1. \n = new line
+	2. \t = tab
+	3. \\ = \
+	4. %% = %
+* variable and data type
+ variable stores somethings
+
+	1. int		--> 1, 100, -111
+	2. float	--> 2.4, 43.2, -0.5
+	3. char		--> 'a', 'b', 'z'
+	4. bool		--> true, false
+
+* how to declear a variable.
+	data_type  var_name;
+	data_type  var_name = value;
+
+## int and float get 4 byte of storage
+# 1 byte = 8 bet
+
+* format specifice
+	1. %d -> int
+	2. %f -> float
+	3. %c -> char
+	4. 
+## & = Mpercent = Address of var
+## gervage = as computer wish 
+
+# how to take input in C?
+	scanf("---");
+	scanf("%d", &var);
+
+* data type limitations
+	1. int --> 4 bytes -- long long --> 8 bytes
+	2. float --> 4 bytes -- duble --> 8 bytes
+
+** for 1 bit space block with = 0, 1
+
+* 2^2 - 1 = 3 digits
+* 10^9 = int = 1000000000 = 10 digits
+* long long + double  = 8 byte = 20 digits
+	lld = %lld > limits -10^18, +10^18
+	lf  = lf   > limits 15 digits
+
+# Rules for naming variables
+	1. variable name must start with a letter or underscore.
+	2. variable name must contain letter, digits or underscore.
+	3. keywords can's be used as variable name
+
+
+
+	
