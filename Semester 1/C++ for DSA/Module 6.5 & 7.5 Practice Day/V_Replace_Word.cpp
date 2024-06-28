@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-// *** mproved version ***
+// *** improved version ***
 
 // #include <bits/stdc++.h>
 // using namespace std;
