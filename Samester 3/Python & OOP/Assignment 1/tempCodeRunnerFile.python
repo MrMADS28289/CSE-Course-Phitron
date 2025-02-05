@@ -1,0 +1,5 @@
+def print_address(**kwargs):
+    print("Address:")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+print_address(street="Dhanmondi", district="Dhaka", country="Bangladesh")
