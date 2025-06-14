@@ -1,0 +1,118 @@
+.parent{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+#input{
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(238, 240, 241);
+    box-shadow: 1px 2px 4px;
+    padding-left: 30px;
+}
+
+#input-btn{
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(238, 240, 241);
+    box-shadow: 1px 2px 4px;
+    padding-left: 30px;
+}
+
+#input:focus{
+    outline: none;
+}
+
+#input-btn:hover{
+    background-color: rgb(139, 140, 141);
+    color: white;
+    cursor: pointer;
+}
+
+/* card style */
+
+#mealDiv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #f9f9f9;
+}
+
+.card {
+    background-color: #fff;
+    width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .food-name {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .food-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .food-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .order-btn {
+    padding: 8px 14px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-btn:hover {
+    background-color: #219150;
+  }
+
+  .notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+  }
